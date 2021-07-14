@@ -6,12 +6,12 @@ from banco_dados import BancoDados
 
 #One warning before using this code to receive the data from esp, turn off the W10's(Windows 10) firewall, the public network.   
 #Part 1
-'''
+
 bd = BancoDados
 #bd.create_table_acc()
 #bd.create_table_gyr()
 
-UDP_IP =  "192.168.0.9"  #"IP of the computer that will receive the data"
+UDP_IP =  ""  #"IP of the computer that will receive the data"
 UDP_PORT = 5000
 
 sock = socket.socket(socket.AF_INET,  socket.SOCK_DGRAM) 
@@ -68,3 +68,4 @@ data3 = data3.loc[100:1100]
 
 concate_data = pd.concat([data1,data2,data3])
 concate_data.to_csv("all.csv", index=False) 
+'''
