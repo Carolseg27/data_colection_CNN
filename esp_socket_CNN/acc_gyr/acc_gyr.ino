@@ -11,10 +11,10 @@ String acc; // accelerometer data
 String gyr; //gyroscope data
 String acc_gyr; //both are sent together 
 int value = 0; 
-const char* ssid = "CHARLOTTE"; //replace with your own wifi ssid 
-const char* password = "doce1210"; //replace with your own //wifi ssid password 
+const char* ssid = ""; //replace with your own wifi ssid 
+const char* password = ""; //replace with your own //wifi ssid password 
 
-const char* host = "192.168.0.9";//IPV4->w10-> terminal and then ipconfig to see the IPV4
+const char* host = "";//IPV4->w10-> terminal and then ipconfig to see the IPV4
 
 const int port = 5000; //porta
 
